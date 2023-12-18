@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:telephoneapp/screens/landingscreen.dart';
+import 'package:telephoneapp/screens/searchscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +12,22 @@ class MyApp extends StatelessWidget
   Widget build(BuildContext context)
   {
     return const MaterialApp(
-      home:LandingScreen() 
+      home:SearchMenu() 
     );
     
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
