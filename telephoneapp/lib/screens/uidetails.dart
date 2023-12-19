@@ -10,8 +10,8 @@ import 'package:telephoneapp/models/individual.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class Info extends StatefulWidget {
-  Info({super.key,required this.userDetails});
-facultyindividual userDetails;
+ const Info({super.key,required this.userDetails});
+final facultyindividual userDetails;
   // This widget is the root of your application.
   @override
   State<Info> createState(){ 

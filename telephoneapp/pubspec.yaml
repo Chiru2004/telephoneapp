@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   http: ^1.1.0
   android_intent: ^2.0.2
+  http: ^1.1.0
+  android_intent: ^2.0.2
   url_launcher: ^6.2.2
 
 dev_dependencies:
